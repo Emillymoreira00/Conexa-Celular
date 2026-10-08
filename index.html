@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Conexa Celular</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="topo">
+
+    <section class="banner">
+     <h1>Conecte seu estilo. Facilite seu dia.</h1>
+    </section>
+
+   <header class="header">
+
+    <div class="logo">
+        <img src="img/logo.png.jpg" alt="Logo conexa celular">
+    </div>
+
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="paginas/acessorios.html">Acessórios</a>
+        <a href="paginas/destaques.html">Destaques</a>
+        <a href="paginas/sobre.html">Sobre a Conexa</a>
+    </nav>
+
+    <div class="header-actions">
+
+        <div class="search">
+            <span>⌕</span>
+            <input type="text" placeholder="O que você procura?">
+        </div>
+
+        <a href="#" class="contact-btn">
+            ◯ Fale com a gente
+        </a>
+
+    </div>
+
+</header>
+
+    <main>
+        <section class="destaque">
+            <div class="destaque-texto">
+                <p class="destaque-eyebrow">Acessórios que acompanham você</p>
+                <h2>Seu celular.<br>Seu estilo.<br>Sua conexão.</h2>
+                <p class="destaque-descricao">Da capinha ao carregador, encontre acessórios para deixar sua rotina mais prática e com a sua cara.</p>
+                <div class="destaque-acoes">
+                    <a class="botao-destaque botao-principal" href="paginas/acessorios.html">Explorar acessórios <span aria-hidden="true">↗</span></a>
+                    <a class="botao-destaque botao-secundario" href="#destaque-imagem">Encontrar meu modelo <span aria-hidden="true">↗</span></a>
+                </div>
+                <p class="destaque-nota"><span class="destaque-nota-icone" aria-hidden="true"></span>Proteção, energia e conexão em um só lugar.</p>
+            </div>
+            <div class="destaque-visual" id="destaque-imagem">
+                <img class="destaque-imagem" src="Img/Celular1.png" alt="Celular, fones sem fio, carregador e cabo em tons lilás">
+                <span class="destaque-selo"><span aria-hidden="true"></span>Essenciais do seu dia</span>
+                <div class="destaque-cartao">
+                    <span class="destaque-cartao-icone" aria-hidden="true">✣</span>
+                    <div>
+                        <strong>Pequenos detalhes. Mais você.</strong>
+                        <span>Conheça o universo Conexa.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categorias" aria-labelledby="categorias-titulo">
+            <div class="categorias-cabecalho">
+                <div>
+                    <p class="categorias-eyebrow">Explore por categoria</p>
+                    <h2 id="categorias-titulo">O que combina com você?</h2>
+                </div>
+                <a class="categorias-catalogo" href="paginas/acessorios.html">Ver todo o catálogo <span aria-hidden="true">↗</span></a>
+            </div>
+
+            <div class="categorias-lista">
+                <a class="categoria-item" href="paginas/acessorios.html#capinhas">
+                    <img src="Img/Celular2.png" alt="Capinhas para celular">
+                    <span class="categoria-nome">Capinhas <span aria-hidden="true">↗</span></span>
+                    <span class="categoria-descricao">Proteção com personalidade.</span>
+                </a>
+                <a class="categoria-item" href="paginas/acessorios.html#peliculas">
+                    <img src="Img/pelicula.png" alt="Películas para celular">
+                    <span class="categoria-nome">Películas <span aria-hidden="true">↗</span></span>
+                    <span class="categoria-descricao">Cuidado em cada toque.</span>
+                </a>
+                <a class="categoria-item" href="paginas/acessorios.html#carregadores">
+                    <img src="Img/carregador.png" alt="Carregadores para celular">
+                    <span class="categoria-nome">Carregadores <span aria-hidden="true">↗</span></span>
+                    <span class="categoria-descricao">Energia para sua rotina.</span>
+                </a>
+                <a class="categoria-item" href="paginas/acessorios.html#cabos">
+                    <img src="Img/cabo.png" alt="Cabos para celular">
+                    <span class="categoria-nome">Cabos <span aria-hidden="true">↗</span></span>
+                    <span class="categoria-descricao">Conecte suas possibilidades.</span>
+                </a>
+                <a class="categoria-item" href="paginas/acessorios.html#fones">
+                    <img src="Img/fones.png" alt="Fones de ouvido sem fio">
+                    <span class="categoria-nome">Fones <span aria-hidden="true">↗</span></span>
+                    <span class="categoria-descricao">Seu som, seu momento.</span>
+                </a>
+                <a class="categoria-item" href="paginas/acessorios.html#suportes">
+                    <img src="Img/suporte.png" alt="Suportes para celular">
+                    <span class="categoria-nome">Suportes <span aria-hidden="true">↗</span></span>
+                    <span class="categoria-descricao">Seu celular bem posicionado.</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="vitrine" id="vitrine" aria-labelledby="vitrine-titulo">
+            <div class="vitrine-cabecalho">
+                <div>
+                    <p class="vitrine-eyebrow">Vitrine Conexa</p>
+                    <h2 id="vitrine-titulo">Detalhes que fazem a diferença.</h2>
+                </div>
+                <a class="vitrine-link" href="paginas/destaques.html">Explorar destaques <span aria-hidden="true">↗</span></a>
+            </div>
+
+            <div class="vitrine-filtros" role="group" aria-label="Filtrar produtos por categoria">
+                <button class="filtro-vitrine ativo" type="button" data-vitrine-filtro="todos" aria-pressed="true">Todos</button>
+                <button class="filtro-vitrine" type="button" data-vitrine-filtro="protecao" aria-pressed="false">Proteção</button>
+                <button class="filtro-vitrine" type="button" data-vitrine-filtro="energia" aria-pressed="false">Energia</button>
+                <button class="filtro-vitrine" type="button" data-vitrine-filtro="audio" aria-pressed="false">Áudio</button>
+            </div>
+
+            <div class="vitrine-produtos" aria-live="polite">
+                <article class="produto-card" data-vitrine-categoria="protecao">
+                    <img class="produto-imagem" src="Img/Capinha.png" alt="Celular com capinha de silicone lilás">
+                    <div class="produto-conteudo">
+                        <p class="produto-categoria">Proteção</p>
+                        <h3>Capinha silicone lilás</h3>
+                        <p class="produto-descricao">Toque suave · Acabamento fosco</p>
+                        <a class="produto-link" href="paginas/acessorios.html#capinhas">Consultar opções <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-vitrine-categoria="energia">
+                    <img class="produto-imagem" src="Img/carregador%20usb.png" alt="Carregador USB-C compacto branco">
+                    <div class="produto-conteudo">
+                        <p class="produto-categoria">Energia</p>
+                        <h3>Carregador USB-C compacto</h3>
+                        <p class="produto-descricao">Formato compacto · Conexão USB-C</p>
+                        <a class="produto-link" href="paginas/acessorios.html#carregadores">Consultar opções <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-vitrine-categoria="energia">
+                    <img class="produto-imagem" src="Img/cabo%20usb.png" alt="Cabo USB-C trançado roxo">
+                    <div class="produto-conteudo">
+                        <p class="produto-categoria">Conexão</p>
+                        <h3>Cabo USB-C trançado</h3>
+                        <p class="produto-descricao">Revestimento trançado · USB-C</p>
+                        <a class="produto-link" href="paginas/acessorios.html#cabos">Consultar opções <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="produto-card" data-vitrine-categoria="audio">
+                    <img class="produto-imagem" src="Img/fones%20sem%20fio.png" alt="Fones sem fio brancos com estojo">
+                    <div class="produto-conteudo">
+                        <p class="produto-categoria">Áudio</p>
+                        <h3>Fone sem fio com estojo</h3>
+                        <p class="produto-descricao">Sem fio · Estojo de carregamento</p>
+                        <a class="produto-link" href="paginas/acessorios.html#fones">Consultar opções <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+
+            <p class="vitrine-aviso">Vitrine ilustrativa. Consulte modelos, cores, valores e disponibilidade com a Conexa.</p>
+        </section>
+
+        <section class="compatibilidade" aria-labelledby="compatibilidade-titulo">
+            <div class="compatibilidade-texto">
+                <p class="compatibilidade-eyebrow">Encaixe certo começa aqui</p>
+                <h2 id="compatibilidade-titulo">Um acessório certo para o seu celular.</h2>
+                <p>Capinhas e películas variam de acordo com o aparelho. Para cabos e carregadores, confira a conexão e as especificações antes de escolher.</p>
+                <a href="#compatibilidade-form">Não sabe o modelo? Veja em Configurações &gt; Sobre o telefone.</a>
+            </div>
+
+            <form class="compatibilidade-painel" id="compatibilidade-form">
+                <h3><span class="compatibilidade-icone" aria-hidden="true"></span>Qual é o seu aparelho?</h3>
+                <div class="compatibilidade-campos">
+                    <label for="marca-celular">
+                        Marca do celular
+                        <select id="marca-celular" name="marca" required>
+                            <option value="">Selecione a marca</option>
+                            <option value="Apple">Apple</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Motorola">Motorola</option>
+                            <option value="Xiaomi">Xiaomi</option>
+                        </select>
+                    </label>
+                    <label for="modelo-celular">
+                        Modelo do celular
+                        <select id="modelo-celular" name="modelo" required disabled>
+                            <option value="">Selecione primeiro a marca</option>
+                        </select>
+                    </label>
+                </div>
+                <button class="compatibilidade-botao" type="submit">Encontrar acessórios <span aria-hidden="true">↗</span></button>
+                <p class="compatibilidade-ajuda">Apple, Samsung, Motorola, Xiaomi e outras marcas. Consulte a compatibilidade de cada opção.</p>
+                <p class="compatibilidade-status" id="compatibilidade-status" role="status" aria-live="polite" hidden></p>
+            </form>
+        </section>
+
+        <section class="rotina-promocao" aria-label="Acessórios para o seu dia a dia">
+            <div class="rotina-principal">
+                <div class="rotina-texto">
+                    <p class="rotina-eyebrow">Na sua mesa. No seu ritmo.</p>
+                    <h2>Mais praticidade.<br>Menos imprevisto.</h2>
+                    <p>Suportes, cabos e fones para acompanhar seus momentos de foco e pausa.</p>
+                    <a class="rotina-botao" href="#categorias-titulo">Montar meu dia a dia <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="rotina-imagem">
+                    <img src="Img/Celular1.png" alt="Celular e acessórios Conexa organizados para acompanhar a rotina">
+                </div>
+            </div>
+
+            <aside class="rotina-combo">
+                <p class="rotina-combo-eyebrow">Dupla que combina</p>
+                <h2>Capinha + película.<br>Cuidado por inteiro.</h2>
+                <img src="Img/pelicula e capinha.png" alt="Capinha lilás e película para celular">
+                <a href="#categorias-titulo">Explorar proteção <span aria-hidden="true">↗</span></a>
+            </aside>
+        </section>
+
+        <section class="beneficios" aria-labelledby="beneficios-titulo">
+            <h2 class="beneficios-eyebrow" id="beneficios-titulo">Uma escolha que faz sentido</h2>
+            <div class="beneficios-lista">
+                <article class="beneficio-item">
+                    <span class="beneficio-icone" aria-hidden="true">◈</span>
+                    <h3>Seu estilo em cada detalhe</h3>
+                    <p>Explore cores, formatos e acabamentos para encontrar o que combina com você.</p>
+                </article>
+                <article class="beneficio-item">
+                    <span class="beneficio-icone" aria-hidden="true">⌁</span>
+                    <h3>Escolhas com mais clareza</h3>
+                    <p>Modelo do aparelho, tipo de conexão e uso: os detalhes certos ajudam na escolha.</p>
+                </article>
+                <article class="beneficio-item">
+                    <span class="beneficio-icone" aria-hidden="true">○</span>
+                    <h3>Conversa antes da escolha</h3>
+                    <p>Tire suas dúvidas com a Conexa e consulte as opções para o seu celular.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="sobre-conexa" aria-labelledby="sobre-conexa-titulo">
+            <div class="sobre-conexa-miolo">
+                <div class="sobre-conexa-marca">
+                    <img src="Img/logo-footer.png" alt="Conexa Celular, acessórios para celulares">
+                    <p>Estilo · Proteção · Conexão</p>
+                </div>
+                <div class="sobre-conexa-texto">
+                    <p class="sobre-conexa-eyebrow">Prazer, somos a Conexa</p>
+                    <h2 id="sobre-conexa-titulo">A conexão começa nos pequenos detalhes.</h2>
+                    <p>O celular está presente em tantos momentos do dia. Na Conexa Celular, os acessórios entram nessa história para trazer personalidade, cuidado e praticidade.</p>
+                    <p>Um universo de capinhas, películas, carregadores, cabos, fones e suportes. Para o seu aparelho. Para o seu jeito de viver.</p>
+                    <a href="#categorias-titulo">Conheça nossos acessórios <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="duvidas" aria-labelledby="duvidas-titulo">
+            <div class="duvidas-intro">
+                <p class="duvidas-eyebrow">Pode perguntar</p>
+                <h2 id="duvidas-titulo">Antes de escolher, tire suas dúvidas.</h2>
+                <p>Alguns detalhes ajudam a encontrar o acessório ideal. Comece por aqui ou confira o seu aparelho.</p>
+                <a href="#compatibilidade-form">Conferir meu aparelho <span aria-hidden="true">↗</span></a>
+            </div>
+
+            <div class="duvidas-lista">
+                <details class="duvida-item" open>
+                    <summary>Como saber se uma capinha serve no meu celular?</summary>
+                    <p>Confira o nome completo do modelo nas configurações do aparelho. Celulares da mesma linha podem ter tamanhos e câmeras diferentes. Informe o modelo à Conexa para consultar as opções compatíveis.</p>
+                </details>
+                <details class="duvida-item">
+                    <summary>Qual é a diferença entre os tipos de película?</summary>
+                    <p>Os materiais e acabamentos variam entre os modelos. Confira as características de cada opção e o tamanho indicado para o seu aparelho antes de escolher.</p>
+                </details>
+                <details class="duvida-item">
+                    <summary>Qual cabo ou carregador devo escolher?</summary>
+                    <p>Verifique o tipo de conexão do aparelho e as especificações recomendadas pelo fabricante. Consulte os detalhes do acessório para confirmar se atendem ao seu uso.</p>
+                </details>
+                <details class="duvida-item">
+                    <summary>Como consultar valores e disponibilidade?</summary>
+                    <p>Os modelos, cores, valores e disponibilidade podem variar. Consulte as opções da vitrine e confirme as informações com a Conexa.</p>
+                </details>
+                <details class="duvida-item">
+                    <summary>Posso pedir ajuda para escolher um acessório?</summary>
+                    <p>Sim. Selecione a marca e o modelo do aparelho no formulário para começar a consulta e conferir quais detalhes observar na escolha.</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="chamada-conversa" aria-labelledby="chamada-conversa-titulo">
+            <div class="chamada-conversa-texto">
+                <p>Vamos encontrar sua próxima conexão?</p>
+                <h2 id="chamada-conversa-titulo">Seu próximo acessório<br>começa com uma conversa.</h2>
+                <span>Conte qual é seu celular e o que procura. Consulte opções, compatibilidade e disponibilidade com a Conexa.</span>
+            </div>
+            <div class="chamada-conversa-acao">
+                <span class="chamada-conversa-icone" aria-hidden="true"></span>
+                <a href="#compatibilidade-form">Encontrar meu acessório <span aria-hidden="true">↗</span></a>
+                <small>Uma escolha com a sua cara.</small>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-principal">
+            <div class="rodape-marca">
+                <a class="rodape-logo" href="index.html" aria-label="Conexa Celular, início">
+                    <img src="Img/logo-footer.png" alt="Conexa Celular">
+                </a>
+                <p>Acessórios para o seu celular.<br>Conexões para o seu dia a dia.</p>
+            </div>
+
+            <nav class="rodape-navegacao" aria-label="Navegação do rodapé">
+                <div>
+                    <h2>Explore</h2>
+                    <a href="#categorias-titulo">Capinhas</a>
+                    <a href="#categorias-titulo">Películas</a>
+                    <a href="#categorias-titulo">Carregadores</a>
+                    <a href="#categorias-titulo">Cabos</a>
+                    <a href="#categorias-titulo">Fones</a>
+                    <a href="#categorias-titulo">Suportes</a>
+                </div>
+                <div>
+                    <h2>Conexa Celular</h2>
+                    <a href="#sobre-conexa-titulo">Sobre a marca</a>
+                    <a href="#vitrine-titulo">Produtos em destaque</a>
+                    <a href="#compatibilidade-form">Encontre seu modelo</a>
+                    <a href="#duvidas-titulo">Dúvidas comuns</a>
+                </div>
+            </nav>
+
+            <div class="rodape-conversa">
+                <h2>Vamos conversar</h2>
+                <p>Dúvidas sobre um acessório? Consulte a Conexa para saber mais sobre as opções do catálogo.</p>
+                <a href="#compatibilidade-form"><span aria-hidden="true">○</span> Conferir meu aparelho <span aria-hidden="true">↗</span></a>
+            </div>
+        </div>
+
+        <div class="rodape-base">
+            <small>© Conexa Celular. Todos os direitos reservados.</small>
+            <span>Imagens ilustrativas. Consulte as opções disponíveis.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
